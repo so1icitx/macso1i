@@ -1,4 +1,4 @@
-# macso1i 🖥️
+# macso1i 
 A simple MAC address changer for Linux, written in Python.
 
 ![Demo](https://img.shields.io/badge/Arch-Linux-blue?logo=arch-linux) 
