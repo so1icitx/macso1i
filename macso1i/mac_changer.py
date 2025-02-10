@@ -24,10 +24,8 @@ def change_mac(choice_mac, mac_add):
 
 def start():
     print(logo)
-    parser = optparse.OptionParser(
-        usage="Usage: %prog -i INTERFACE --mac MAC_ADDRESS\nExample: %prog -i wlan0 --mac 00:11:22:33:44:55",
-        description="A tool to change your MAC address for network privacy."
-    )
+    parser = optparse.OptionParser(usage="Usage: %prog -i INTERFACE --mac MAC_ADDRESS\nExample: %prog -i wlan0 --mac 00:11:22:33:44:55",description="A tool to change your MAC address for network privacy.")
+    
     parser.add_option("-i", dest="interface", help="Network interface (e.g., eth0, wlan0)")
     parser.add_option("--mac", dest="mac", help="New MAC address (e.g., 00:11:22:33:44:55)")
     parser.add_option("--show", dest="show_interfaces", action="store_true", help="Show available interfaces")
