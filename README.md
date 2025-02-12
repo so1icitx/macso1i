@@ -16,7 +16,13 @@ git clone https://github.com/trxycs/macso1i.git
 cd macso1i
 ```
 
+
+## ⚠️ Requirements  
+- Python 3  
+- `ifconfig` (usually part of the `net-tools` package)  
+- Root privileges (`sudo`) 
 ---
+
 
 ## 🚀 Usage  
 ### Change the MAC address:  
@@ -34,11 +40,7 @@ python3 mac_changer.py --show
 ```bash
 python3 mac_changer.py -h
 ```
-
-## ⚠️ Requirements  
-- Python 3  
-- `ifconfig` (usually part of the `net-tools` package)  
-- Root privileges (`sudo`)  
+ 
 
 ---
 
