@@ -1,17 +1,16 @@
 # **macso1i**  
 A simple MAC address changer for Linux, written in Python.
 
-## ⚠️ Requirements  
-- Python 3  
-- `ifconfig` (usually part of the `net-tools` package)  
-- Root privileges (`sudo`) 
----
-
-
 ## ✨ Features  
 - 🛠️ Change MAC address for any network interface.  
 - 🔍 Show available network interfaces.  
 
+---
+
+## ⚠️ Requirements  
+- Python 3  
+- `ifconfig` (usually part of the `net-tools` package)  
+- Root privileges (`sudo`) 
 ---
 
 ## 📚 Installation  
