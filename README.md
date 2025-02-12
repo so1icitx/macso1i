@@ -21,15 +21,19 @@ cd macso1i
 ## 🚀 Usage  
 ### Change the MAC address:  
 ```bash
-sudo ./mac_changer.py -i wlan0 --mac 00:11:22:33:44:55
+sudo python3 mac_changer.py -i wlan0 --mac 00:11:22:33:44:55
 ```
 
 ### View available network interfaces (e.g., wlan0, enp4s0, etc.):  
 ```bash
-./mac_changer.py --show
+python3 mac_changer --show
 ```
 
 ---
+### Shows commands and how to use the mac changer:
+```bash
+python3 mac_changer -h
+```
 
 ## ⚠️ Requirements  
 - Python 3  
