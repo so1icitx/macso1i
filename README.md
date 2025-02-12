@@ -26,13 +26,13 @@ sudo python3 mac_changer.py -i wlan0 --mac 00:11:22:33:44:55
 
 ### View available network interfaces (e.g., wlan0, enp4s0, etc.):  
 ```bash
-python3 mac_changer --show
+python3 mac_changer.py --show
 ```
 
 ---
 ### Shows commands and how to use the mac changer:
 ```bash
-python3 mac_changer -h
+python3 mac_changer.py -h
 ```
 
 ## ⚠️ Requirements  
