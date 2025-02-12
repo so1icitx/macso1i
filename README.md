@@ -3,6 +3,12 @@ A simple MAC address changer for Linux, written in Python.
 
 ![Arch Linux](https://img.shields.io/badge/Arch-Linux-blue?logo=arch-linux)  
 ![License](https://img.shields.io/badge/License-MIT-green)
+## ⚠️ Requirements  
+- Python 3  
+- `ifconfig` (usually part of the `net-tools` package)  
+- Root privileges (`sudo`) 
+---
+
 
 ## ✨ Features  
 - 🛠️ Change MAC address for any network interface.  
@@ -15,14 +21,6 @@ A simple MAC address changer for Linux, written in Python.
 git clone https://github.com/trxycs/macso1i.git
 cd macso1i
 ```
-
-
-## ⚠️ Requirements  
-- Python 3  
-- `ifconfig` (usually part of the `net-tools` package)  
-- Root privileges (`sudo`) 
----
-
 
 ## 🚀 Usage  
 ### Change the MAC address:  
