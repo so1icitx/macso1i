@@ -31,7 +31,7 @@ python3 mac_changer.py --show
 ```
 
 ---
-### Shows commands and how to use the mac changer:
+### Shows commands and how to use the macso1i:
 ```bash
 python3 mac_changer.py -h
 ```
